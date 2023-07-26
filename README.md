@@ -16,8 +16,14 @@ A complete Guide to Install Frappe/ERPNext version 14  in Ubuntu 22.04 LTS
       NGINX                                         (proxying multitenant sites in production)
 
 
+###Switch to Root User - $sudo su 
 
-### STEP 1 Install git
+    sudo apt update && sudo apt -y upgrade -y
+
+### Swith to Normal User - $ su - anand
+
+### Step 1 Install  Git
+
     sudo apt-get install git
 
 ### STEP 2 install python-dev
